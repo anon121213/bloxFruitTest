@@ -26,6 +26,8 @@
     <type fullname="Gameplay.UI.BillBoard" preserve="all" />
     <type fullname="Gameplay.UI.Inventory.Cell.InventoryCell" preserve="all" />
     <type fullname="Gameplay.UI.Inventory.Cell.InventoryCellView" preserve="all" />
+    <type fullname="Gameplay.UI.StatBar.DamageBarPresenter" preserve="all" />
+    <type fullname="Gameplay.UI.StatBar.DamageView" preserve="all" />
     <type fullname="Gameplay.UI.StatBar.HealthBarPresenter" preserve="all" />
     <type fullname="Gameplay.UI.StatBar.StatBarView" preserve="all" />
     <type fullname="Gameplay.UI.Stats.StatView" preserve="all" />
@@ -118,7 +120,6 @@
     <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.BoxCollider" preserve="all" />
     <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
     <type fullname="UnityEngine.CharacterController" preserve="all" />
     <type fullname="UnityEngine.MeshCollider" preserve="all" />
@@ -142,6 +143,7 @@
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
   </assembly>
   <assembly fullname="Fluid.BehaviorTree">
